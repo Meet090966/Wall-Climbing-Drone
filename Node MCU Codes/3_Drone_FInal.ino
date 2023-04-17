@@ -95,7 +95,7 @@ GPOC = (1 << 14);GPOC = (1 << 12);GPOC = (1 << 13);GPOC = (1 << 15);
 digitalWrite(D0,LOW); 
 Serial.begin(115200);
 WiFi.mode(WIFI_STA);
-WiFi.begin("Redmi_R", "deywifi3210");
+WiFi.begin("meet", "12345678");
 while (WiFi.status() != WL_CONNECTED){ delay(500);}
 Serial.println(WiFi.localIP()); 
 UDP.begin(9999);
